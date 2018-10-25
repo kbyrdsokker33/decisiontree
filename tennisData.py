@@ -1,0 +1,14 @@
+{'outlook':'sunny','temp':'hot','humidity':'high','wind':'weak','play':'-'}
+{'outlook':'sunny','temp':'hot','humidity':'high','wind':'strong','play':'-'}
+{'outlook':'overcast','temp':'hot','humidity':'high','wind':'weak','play':'+'}
+{'outlook':'rain','temp':'mild','humidity':'high','wind':'weak','play':'+'}
+{'outlook':'rain','temp':'cool','humidity':'normal','wind':'weak','play':'+'}
+{'outlook':'rain','temp':'cool','humidity':'normal','wind':'strong','play':'-'}
+{'outlook':'overcast','temp':'cool','humidity':'normal','wind':'strong','play':'+'}
+{'outlook':'sunny','temp':'mild','humidity':'high','wind':'weak','play':'-'}
+{'outlook':'sunny','temp':'cool','humidity':'normal','wind':'weak','play':'+'}
+{'outlook':'rain','temp':'mild','humidity':'normal','wind':'weak','play':'+'}
+{'outlook':'sunny','temp':'mild','humidity':'normal','wind':'strong','play':'+'}
+{'outlook':'overcast','temp':'mild','humidity':'high','wind':'strong','play':'+'}
+{'outlook':'overcast','temp':'hot','humidity':'normal','wind':'weak','play':'+'}
+{'outlook':'rain','temp':'mild','humidity':'high','wind':'strong','play':'-'}

@@ -1,5 +1,5 @@
 """
-Allison Ryder and Kendell Byrd--Decision Tree Project
+Kendell Byrd--Decision Tree Project
 
 DecisionTree Class- defines all the properties and methods/functions to run program, ask for user input, generate a decision tree, and output the tree and statistics
 
@@ -125,7 +125,6 @@ class DecisionTree(object):
         node.leaf = True
         return node
     allSecondAttr = True
-    print examples
 
     for x in range(len(examples)):
         if examples[x][self.targetAttribute] == self.target_values[0]:
@@ -144,7 +143,6 @@ class DecisionTree(object):
     bestA=self.bestAttribute(examples, attributes)
     node.decision=bestA
     values=self.attributeValuesDict[bestA]
-    print values
     attributes.remove(bestA)
     #print bestA
     for v in values:

@@ -1,5 +1,5 @@
 # decision trees
-1 Introduction
+# 1 Introduction
 A decision tree is a tree-like model or graph representation that can be used to make sequential
 decision problems. Decision trees are one of the most simplest and successful supervised learning
 techniques which results in decision trees being one of the most commonly used methods in the
@@ -22,19 +22,19 @@ of variability in a current set, so set will have an entropy of 0 when all its m
 class (for the soccer example, if the Outlook attribute had a value that was rain and rain always
 gave the output of no for whether or not to play soccer, then this set would have an entropy of 0).
 The equation for entropy of an entire set is:
-Entropy(S) = -Pos * log2(Pos) - Neg * log2(Neg)
+## Entropy(S) = -Pos * log2(Pos) - Neg * log2(Neg)
 Where S is the set, Pos is the number of positive outputs in current set, and Neg is the number
 of negative outputs in entire set. Note: I also use Gini and MisClassification Index to find impurity of a set. Once we calculate entropy we can calculate the information gain
 for an attribute which is given by the equation:
 
-Gain(attribute) = Entropy(S) - *Entropy(examples when attribute value is positive) - *En-
-tropy(examples when attribute value is negative).
+## Gain(attribute) = Entropy(S) - *Entropy(examples when attribute value is positive) - *En-
+## tropy(examples when attribute value is negative).
 
 The attribute that gives us the largest information gain is the one that is added to the tree
 first. The decision tree continues to calculate these values until it has formed the best possible tree.
 
 
-2 Details
+# 2 Details
 I implemented this decision tree program by first providing the user with a menu asking what
 type of data they would like to display a decision tree for. As stated in the introduction, there are
 three options: binary data, tennis data, and voting data. Based on the answer to this question, I
@@ -84,7 +84,7 @@ decision returned from the tree to what the expected output specified by the exa
 track of how many examples were classified correctly, and output statistics to the user at the end.
 
 
-3 Results
+# 3 Results
 To analyze how the performance is affected by the size of the training set, I ran the program five
 times on the data set summarizing voting outcomes with training set percentages ranging from 30-
 80. I recorded the statistic for what percentage of the examples in the testing set were classified
@@ -97,7 +97,7 @@ What is interesting about these results is that a higher percentage of examples 
 training set did not necessarily correlate with a higher percentage of examples classified correctly.
 This could be because the size of the voting data is excessively large in the first place.
 
-4 Conclusions
+# 4 Conclusions
 Overall, my decision tree implementation was successful in analyzing the examples given to it and
 creating a decision tree that generalized to the testing set around 90 percent of the time. In general,
 decision trees are bad at handling examples with missing data. I handled this problem by filling
